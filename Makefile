@@ -1,6 +1,9 @@
 up:
 	docker compose up -d
 
+launch:
+	open http://localhost:9000
+
 down:
 	docker-compose down
 

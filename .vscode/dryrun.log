@@ -1,0 +1,5 @@
+make: Entering directory `/Users/azizur/projects/azizur/sonarqube'
+docker compose up -d
+ 
+make: Leaving directory `/Users/azizur/projects/azizur/sonarqube'
+ 
