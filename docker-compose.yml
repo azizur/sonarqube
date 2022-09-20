@@ -2,6 +2,7 @@ version: "3"
 services:
   sonarqube:
     image: sonarqube:latest
+    platform: linux/amd64
     depends_on:
       - db
     environment:
@@ -16,6 +17,7 @@ services:
       - "9000:9000"
   db:
     image: postgres:12
+    platform: linux/amd64
     environment:
       POSTGRES_USER: sonar
       POSTGRES_PASSWORD: sonar
